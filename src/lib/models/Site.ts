@@ -272,7 +272,6 @@ export class Google extends Site {
 	}
 
 	disableOverviewOnPage(tabId: number) {
-		console.log(tabId);
 		chrome.scripting.executeScript({
 			target: { tabId },
 			files: ['/src/entries/inject/overview.js'],
