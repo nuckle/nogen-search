@@ -17,13 +17,20 @@ browser.runtime.onInstalled.addListener(async () => {
 	console.log('Extension installed');
 
 	await setSettingsToDefault(browser);
+	init();
+});
 
+browser.runtime.onStartup.addListener(async () => {
+	init();
+});
+
+function init() {
 	if (chrome?.declarativeNetRequest !== undefined) {
 		chromeNetworkCode();
 	} else {
 		firefoxNetworkCode();
 	}
-});
+}
 
 async function chromeNetworkCode() {
 	chrome.storage.sync.onChanged.addListener(async function (changes) {
@@ -185,3 +192,5 @@ function firefoxNetworkCode() {
 		});
 	});
 }
+
+init();
