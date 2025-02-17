@@ -4,9 +4,9 @@
 
 ## About
 
-A browser extension that provides settings to filters popular search engines
-like Google, Bing and DuckDuckGo to filter out an AI-generated content and,
-additionally, turn off some AI features on their respective pages.
+A browser extension that helps to filter AI-generated content from popular
+search engines like Google, Bing, and DuckDuckGo. It also provides some options
+to disable certain AI features on these platforms.
 
 ## Features
 
@@ -36,6 +36,12 @@ additionally, turn off some AI features on their respective pages.
 |[Download](https://addons.mozilla.org/en-US/firefox/addon/nogen-search/)|
 
 Or on a [release page](https://github.com/nuckle/nogen-search/releases/latest)
+
+## Resources
+
+Huge thanks to [Nicholas Taylor](https://nullhandle.org/) for [his article about Bing Date Search Operators](https://nullhandle.org/blog/2024-06-12-exploring-the-bing-date-search-operators.html). It wasn't obvious to figure out how they work 😅
+
+And thanks to [Zach](https://github.com/zbarnz)! [Google AI Overviews Blocker](https://github.com/zbarnz/Google_AI_Overviews_Blocker) was an inspiration for this project
 
 ## Usage Notes
 
