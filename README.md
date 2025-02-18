@@ -18,11 +18,11 @@ to disable certain AI features on these platforms.
 
 ## Permissions
 
-- `cookies`: To modify cookies (for instance, Bing uses them to store an
+- `cookies`: To modify cookies in cases when it's the only way to disable a certain feature (for instance, Bing uses them to store an
   information about copilot status)
 - `scripting`: Inject JavaScript into web pages to hide elements, such as Google's Overview, from the page source code
   source code
-- `tabs`: Enable JavaScript injection and modify query parameters on browsers that use ManifestV3.
+- `tabs`: For JavaScript injection and modify query parameters on browsers that use ManifestV3.
 - `webRequest` and `webRequestBlocking`: Monitor and modify URLs when needed
 - `declarativeNetRequest`: Used in ManifestV3 for creating network rules
 - `storage`: Save and retrieve user preferences and settings
