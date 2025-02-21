@@ -29,10 +29,10 @@ to disable certain AI features on these platforms.
 
 ## Download
 
-|Firefox|
-|---    |
-|<p align="center"><a href="https://addons.mozilla.org/en-US/firefox/addon/nogen-search/" ><img src="img/firefox.png"></a></p>|<p align="center">|
-|[Download](https://addons.mozilla.org/en-US/firefox/addon/nogen-search/)|
+| Firefox | Chrome |
+|---------|--------|
+| <p align="center"><a href="https://addons.mozilla.org/en-US/firefox/addon/nogen-search/"><img src="img/firefox.png"></a></p> | <p align="center"><a href="https://chromewebstore.google.com/detail/nogen-search/idldfepeepcikagaiephoomiljfgjald"><img src="img/chrome.png"></a></p> |
+| [Download](https://addons.mozilla.org/en-US/firefox/addon/nogen-search/) | [Download](https://chromewebstore.google.com/detail/nogen-search/idldfepeepcikagaiephoomiljfgjald) |
 
 Or on a [release page](https://github.com/nuckle/nogen-search/releases/latest)
 
